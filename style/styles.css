@@ -1,5 +1,5 @@
 body{
-     background-image: url(/home/samyak/Desktop/prototype/images/welcome.jpeg);
+     background-image: url(../images/welcome.jpeg);
     background-repeat: no-repeat;
     background-position: 0px 70px;
     background-size: cover;
@@ -154,4 +154,20 @@ span.psw {
     .cancelbtn {
        width: 100%;
     }
+}
+
+.startgreet{
+    width: 500px; 
+    height: 460px; 
+    position: absolute; 
+    top: 120px;
+    right:30px;
+}
+
+.greet{
+    color: whitesmoke; 
+    font-family: monospace;
+    font-weight: bold; 
+    font-size: 3em;
+    opacity: 0.8;
 }
