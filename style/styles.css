@@ -2,7 +2,7 @@ body{
      background-image: url(../images/welcome.jpeg);
     background-repeat: no-repeat;
     background-position: 0px 70px;
-    background-size: cover;
+    background-size: contain;
 }
 
 ul.welcome {
@@ -157,11 +157,11 @@ span.psw {
 }
 
 .startgreet{
-    width: 500px; 
-    height: 460px; 
-    position: absolute; 
-    top: 120px;
-    right:30px;
+    float: right;
+    width: 480px;
+    height:460px;
+    margin: 55px auto 0px auto;
+    
 }
 
 .greet{
@@ -170,4 +170,38 @@ span.psw {
     font-weight: bold; 
     font-size: 3em;
     opacity: 0.8;
+}
+
+.breakline{
+    height:1px;
+    margin: 3em;
+    margin-left: 0px;
+    margin-right: 0px;
+    width:100%;
+    background-color: #aaaaaa;
+}
+.academics{
+    width:42%;
+    height:200px;
+    margin: 3%;
+    background: url(../images/acad.jpg);
+    border-radius: 5%;
+    opacity: 0.8;
+    font-weight: bold; 
+}
+button:hover.academics{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: all .5s;
+}
+.descriptive{
+    font-family: cursive;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    font-weight: normal;
+    color: #999999;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    font-style: italic;
 }
